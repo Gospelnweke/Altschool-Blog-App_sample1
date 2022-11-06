@@ -23,7 +23,7 @@ app.get("*", checkUser);
 // app.get("/createBlog", requireAuth, (req, res) => res.send("createBlog"));
 
 app.get("/", (req, res) => {
-  res.send("home");
+  res.send("Welcome to Gospel's Blog app home");
 });
 
 // 404 route
